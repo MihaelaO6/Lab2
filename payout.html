@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <title>Payment 186045</title>
+  <style>
+    .form-control {
+      height: 35px;
+      width: 350px;
+    }
+    .form-control1 {
+      height: 35px;
+      width: 90px;
+    }
+    .payment-form {
+      width: 400px;
+      margin: 30px auto;
+    }
+    .payment-form form {
+      border-radius: 3px;
+      padding: 20px;
+    }
+    .payment-form .form-group {
+      margin-bottom: 20px;
+    }
+    .dolzina{
+      width: 127px;
+    }
+  </style>
+</head>
+<body>
+<div class="payment-form">
+  <form>
+    <h2>Payment page</h2> <hr>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%">
+        <h7><strong>Step 4:Payment</strong></h7>
+      </div>
+    </div>
+    <hr>
+    <div class="form-group">
+      <h6>Name on Card</h6>
+      <input type="text" class="form-control">
+    </div>
+    <div class="form-group">
+      <h6>Card Number</h6>
+      <input type="text" class="form-control">
+    </div>
+    <div class="form-group">
+      <h6>Billing Address</h6>
+      <input type="text" class="form-control">
+    </div>
+    <div class="row">
+      <div class="row">
+        <div class="col-4 dolzina" style="font-family: sans-serif"><h7><strong>CVC</strong></h7></div>
+        <div class="col-8 dolzina" style="font-family: sans-serif"><h7><strong>Expiration</strong></h7></div>
+      </div>
+      <div class="col-sm">
+        <input type="text" class="form-control1" style="padding: 7px" name="ex.1"  placeholder="ex. 311">
+      </div>
+      <div class="col-sm">
+        <input type="text" class="form-control1" style="padding: 7px" name="ex.2"  placeholder="MM">
+      </div>
+      <div class="col-sm">
+        <input type="text" class="form-control1"name="ex.3" style="padding: 7px" placeholder="YYYYY">
+      </div>
+    </div>
+    <hr>
+    <div class="form-group">
+      <div class="row-cols-lg-1">
+        <button type="button" class="btn btn-success disabled" style="margin-bottom: 20px; color: #000000;font-size: 15px"><span class="border border-white border-3 rounded-pill " style="background: #ffffff;border-radius: 15px;font-family: 'Arial Black';color: forestgreen ">Your total today: $300</span></button>
+        <button type="button" class="btn btn-primary disabled" style="font-family: 'Arial Black'">Pay &raquo;</button>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+<script src="./js/bootstrap.bundle.js"></script>
+
+</html>
